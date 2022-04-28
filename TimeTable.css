@@ -1,0 +1,12 @@
+.TimeTable{
+    /* width: 100%; */
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,td{
+    width: 10%;
+    border: 1px solid black;
+    text-align: center;
+    
+}
