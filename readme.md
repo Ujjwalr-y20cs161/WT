@@ -1,3 +1,3 @@
 **Sources**
 
-1.https://colorhunt.co/palettes/vintage
+1. https://colorhunt.co/palettes/vintage
