@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book-Nation</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Zilla+Slab&family=Plus+Jakarta+Sans:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <style>
+        body {
+            margin: 0 auto;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Zilla Slab', serif;
+            white-space: nowrap;
+            width: 100vw;
+        }
+
+        .logo>img {
+            height: 40px;
+            background-color: aliceblue;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        .header {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0px;
+            width: 100vw;
+            background-color: #D9AFD9;
+            background-image: linear-gradient(63deg, #D9AFD9 0%, #97D9E1 100%);
+        }
+
+        .header>div {
+            padding: 5px 10px;
+        }
+
+        .name>h1 {
+            padding: 10px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: rgba(255, 255, 255, 0.405);
+        }
+
+        .login>a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .menu {
+            width: 100vw;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            background-color: #99FEFF;
+        }
+
+        .menu>.signin {
+            margin-left: auto;
+        }
+
+        .search {
+            background-color: #97dae124;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        .search>img {
+            height: 20px;
+        }
+
+        .search>form>input {
+            width: 30vw;
+            border: hidden;
+            height: 25px;
+            border-radius: 20px;
+            background-color: #ffffffc2;
+        }
+
+
+        .menu>div {
+            background-color: #00000027;
+            margin: 5px;
+            padding: 5px;
+            /* height: 20px; */
+            border-radius: 5px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .lib {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: #e1d0f0;
+            display: flex;
+            border-radius: 20px;
+        }
+
+        .lib>div {
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .product {
+            padding: 20px;
+            width: 70vw;
+            margin: auto;
+            margin-top: 5vh;
+            margin-bottom: 5vh;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            border-radius: 20px;
+            background-color: #00343f10;
+        }
+
+        .panel {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #d9afd92c;
+            border-radius: 20px;
+        }
+
+        .panel>div {
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .image>img {
+            height: 40vh;
+            margin: 10px;
+        }
+
+        .image {
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 10px;
+        }
+
+        .price {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            margin: 10px;
+            padding: 10px;
+            background-color: #94daff4a;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .buy {
+            display: flex;
+        }
+
+        .buy>div {
+            padding: 10px;
+            border-radius: 25px;
+            margin: 5px;
+            text-align: center;
+        }
+
+        .addtocart {
+            border: 2px solid;
+            color: #ff839e;
+        }
+
+        .addtocart>a {
+            color: #ff839e;
+        }
+
+        .buynow {
+            background-color: #ff839e;
+            border: 2px solid #ff839e;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000000;
+            font-weight: 600;
+        }
+
+        @media (max-width:800px) {
+            .menu>.search>form {
+                display: none;
+            }
+
+            .menu>.search>form:hover {
+                display: block;
+            }
+
+            .product {
+
+                flex-direction: column;
+            }
+
+            .mainbody {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="header">
+            <div class="logo"><img src="Nlogo.png" alt="Logo"></div>
+            <div class="name">
+                <h1>Book-Nation</h1>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="home"><a href="#">Home</a></div>
+            <div class="search">
+                <img src="search.png" alt="search">
+                <form>
+                    <input type="search" placeholder="      Search">
+                </form>
+            </div>
+            <div class="signin"><a href="#">Sign In</a></div>
+            <div class="login"><a href="#">Log In<div class="material-symbols-rounded">
+                        login
+                    </div></a></div>
+        </div>
+
+        <div class="product">
+
+            <div class="image">
+                <img src="https://upload.wikimedia.org/wikipedia/en/b/b9/Girl_in_room_105.png" alt="The Book">
+                <h2>The Girl in room 105</h2>
+                <cite>By <b>Chetan Bhagat</b></cite>
+            </div>
+            <div class="panel">
+                <div class="price">
+                    <h3>Price: &nbsp; </h3>
+                    <h3>
+                        <h2>199.99 </h2> &nbsp;&#x20B9;
+                    </h3>
+                </div>
+                <div class="lib">
+                    <div class="like">
+                        <span class="material-symbols-rounded">
+                            favorite
+                        </span>
+                    </div>
+                    <div class="share">
+                        <span class="material-symbols-rounded">
+                            share
+                        </span>
+                    </div>
+                    <div class="rate">
+                        <span class="material-symbols-rounded">
+                            reviews
+                        </span>
+                    </div>
+                </div>
+                <div class="buy">
+                    <div class="addtocart"><a href="#">Add to Cart</a></div>
+                    <div class="buynow"><a href="#">Buy Now</a></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

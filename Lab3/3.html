@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ComputerScience Department</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            background-color: rgb(255, 250, 230);
+            box-sizing: border-box;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        .content {
+            margin: auto;
+            padding: 15px;
+        }
+
+        .header {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.149);
+            height: 20%;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        #subhead {
+            color: aliceblue;
+            font-weight: 100;
+            background-color: rgba(100, 148, 237, 0.434);
+            width: 30%;
+            margin: auto;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        .navbar {
+            background-color: rgba(1, 11, 28, 0.1);
+            border-radius: 10px;
+            border: 1px solid black;
+            margin: auto;
+            width: 50%;
+            padding: 5px;
+        }
+
+        .navbar {
+            margin: auto;
+            display: flex;
+            list-style: none;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        @media (max-width: 800px) {
+
+            .navbar,
+            .navg {
+                flex-direction: column;
+                height: 30vh;
+                width: 30vw;
+                margin: auto;
+                align-items: center;
+                justify-content: space-around;
+            }
+
+            .mainwraper {
+                flex-direction: column;
+                align-items: center;
+
+            }
+
+            .mainwraper>div {
+                width: 80vw;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .navbar>li {
+            background-color: rgba(0, 0, 0, 0.071);
+            padding: 0.2rem;
+            border-radius: 5px;
+        }
+
+        .mainwraper {
+            width: 100%;
+            padding: 15px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .mainwraper>div {
+            margin: 10px;
+        }
+
+        .sidehead {
+            width: min-content;
+            height: fit-content;
+            background-color: rgba(0, 0, 0, 0.158);
+            border-radius: 10px;
+            padding: 10px;
+            display: flex;
+            text-align: center;
+            align-items: center;
+        }
+
+        .text,
+        .images {
+            border-radius: 10px;
+            width: 40%;
+
+            padding: 10px;
+            float: left;
+            display: flex;
+            justify-content: center;
+
+            align-items: center;
+            flex-direction: column;
+
+        }
+
+        .text {
+            flex: 2;
+            background-color: rgba(0, 0, 0, 0.056);
+        }
+
+        .images {
+            background-color: rgba(86, 191, 193, 0.104);
+        }
+
+        .images>img {
+            margin: 20px;
+            width: 75%;
+            height: auto;
+        }
+
+        a {
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .secondblock>a>img {
+            width: 50vw;
+            height: auto;
+            border-radius: 10px;
+            background-color: rgba(0, 0, 0, 0.09);
+        }
+
+        .secondblock {
+            position: relative;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .toup {
+            border-radius: 30px;
+            width: 15%;
+            background-color: rgb(255, 0, 98);
+            /* padding: 7px 10px; */
+            cursor: pointer;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="header">
+            <h1 id="head">RVR&JC College of Engineering.</h1>
+            <h2 id="subhead">Computer Science Department</h2>
+        </div>
+        <hr>
+        <div class="navg">
+            <ul class="navbar">
+                <li class="home"><a href="">Home</a></li>
+                <li class="acad"><a href="">Academics</a></li>
+                <li class="peop"><a href="">People</a></li>
+                <li class="resrc"><a href="">Resources</a></li>
+                <li class="stdChap"><a href="">StudentChapter</a></li>
+            </ul>
+        </div>
+        <div class="mainwraper">
+            <div class="sidehead">
+                <h2>Department Profile</h2>
+            </div>
+            <div class="text">
+                <p>
+                    <b>The R.V.R. & J.C. College of Engineering</b> introduced the undergraduate program in <i>Computer
+                        Science &
+                        Engineering (CSE)</i> in
+                    1994. Since its inception, the department has grown exponentially in the areas of student intake,
+                    quality of academic
+                    work and student achievements.
+                    <br>
+                    The department has excellent infrastructure to support the teaching learning process. More than half
+                    of the class rooms
+                    of the department have the integrated computer-assisted teaching systems. The faculty of the
+                    department utilizes these
+                    systems to deliver lectures effectively. A new training facility named E-class room was developed in
+                    the year 2009.
+                    With <a href="https://en.wikipedia.org/wiki/Wi-Fi" target="_blank" class="s">Wifi</a> and <a
+                        href="https://en.wikipedia.org/wiki/Local_area_network" target="_blank" class="s">Lan</a>
+                    facility in every Lab
+                    and Class
+                    Room
+
+                    <br>
+                    The department is well supported in academics by qualified and experienced faculty including six
+                    doctorates. The faculty
+                    members of the department actively pursue research in their respective areas and publish research
+                    papers in renowned
+                    journals. The students are encouraged to participate in national and international conferences,
+                    workshops, student
+                    symposiums and to publish papers in national / international journals.
+                    <br>
+                    The department strives towards delivering quality education to the students. This fact is attested
+                    to by the National
+                    Board of Accreditation (NBA). The department of CSE received accreditation from NBA for 5 times
+                    during 2002, 2007, 2012,
+                    2017 and 2021. The department invites experts from premiere educational institutions and the
+                    industry to conduct
+                    seminars / workshops on the advanced topics in Computer Science.
+                    <br>
+                </p>
+            </div>
+            <div class="images">
+                <img src="acc_main.jpg" alt="Sarasvathi Devi Statue">
+                <br>
+                <cite>Sarasvathi Statue in <b>Cyber block</b></cite>
+            </div>
+        </div>
+        <div class="secondblock">
+            <h2>Here is The Main website of the RVRJCCE CSE Department</h2>
+            <a href="http://cse.rvrjcce.ac.in/"><img
+                    src="https://images4.content-hci.com/commimg/myhotcourses/blog/post/myhc_89683.jpg"
+                    alt="ComputerScience"></a>
+            <h3>Click Here To Naviagate to the website&uarr;</h3>
+
+            <div class="toup">
+                <a href="#head">
+                    <p>To Top &uarr;</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
