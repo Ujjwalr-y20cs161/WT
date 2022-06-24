@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>dropdown menu using select tab</title>
+</head>
+<script>
+    const state = {
+        AndhraPradesh: 'Hyderabad',
+        Telengana: 'Hyderabad',
+        Delhi: 'NewDelhi',
+        Tamilnadu: 'Chennai',
+        Karnataka: 'Banglore',
+    };
+    function favTutorial() {
+        var mylist = document.getElementById("myList");
+
+        document.getElementById("favourite").innerHTML = state[mylist.options[mylist.selectedIndex].text];
+    }  
+</script>
+
+<body>
+    <form>
+        <H2>Choose an option</H2>
+        <select id="myList" onchange="favTutorial()">
+            <option>Choose a State</option>
+            <option>AndhraPradesh</option>
+            <option>Telengana</option>
+            <option>Delhi</option>
+            <option> Tamilnadu </option>
+            <option> Karnataka </option>
+        </select>
+        <p> Capital:
+        <h1 id="favourite"></h1>
+        </p>
+    </form>
+</body>
+
+</html>
