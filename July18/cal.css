@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 1px solid#f87474;
+}
+
+:root {
+  --prim: #f9f2ed;
+  --prim2: white;
+  --sec: #3ab0ff;
+  --accent: #f87474;
+  --acc2: #ffb562;
+}
+
+body,
+button {
+  font-family: "Rubik", sans-serif;
+}
+
+.head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 8vh;
+  -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.78);
+  -moz-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.78);
+  box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.78);
+}
+
+.cal-wrapper {
+  width: 40vw;
+  height: 70vh;
+  background-color: var(--prim2);
+  margin: 30px 15px;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: -5px -5px 20px -10px black;
+  -webkit-box-shadow: -5px -5px 20px -10px black;
+  -moz-box-shadow: -5px -5px 20px -10px black;
+}
+
+.cal-wrapper > div {
+  width: 30vw;
+}
+
+button {
+  border: none;
+  color: var(--prim);
+  background-color: var(--acc2);
+  font-weight: lighter;
+  border-radius: 25%;
+  display: inline-block;
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  margin: 2px;
+}
+#all-clear {
+  background-color: #f87474;
+  color: #000;
+}
+#all-clear:hover {
+  background-color: #f9f2ed;
+  color: #f87474;
+}
+button:hover {
+  background-color: var(--prim2);
+  color: #000;
+}
+
+.oper {
+  background-color: var(--prim);
+  color: #3ab0ff;
+}
+.oper:hover {
+  background-color: var(--sec);
+  color: var(--prim);
+}
+.cal-scrn {
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+}
+.cal-scrn > #cal-screen {
+  border: none;
+  width: 35vw;
+  height: 100px;
+  border-radius: 8px;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.103);
+}
